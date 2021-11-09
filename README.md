@@ -29,9 +29,11 @@ Question four is running 2D CNN layers and Spectral Normalization and here is th
   <img src="Images/4 - Gen and Disc Loss With Spectral Norm.PNG" width="500" height="400" />
 </p>
 
+And here is the mean error for each question:
+
 | Question  | Generator loss  | Discriminator loss | Mean loss
 | ------------- | ------------- | ------------- | -------------
 | linear model with no weight normalization  | 1.6464909422397627  | 0.3170868508219722  | 0.98178889653087
 | linear model with batch normalization  | 1.8335691130161285  | 0.20155112892389274  | 1.01756012097
-| 2D CNN layers and 2D Batch Normalization  | 0.583811241984368  | 0.7356016211509696  | 0.65970643156767
+| **2D CNN layers and 2D Batch Normalization**  | **0.583811241984368**  | **0.7356016211509696**  | **0.65970643156767**
 | 2D CNN layers and Spectral Normalization  | 0.707224202632904  | 0.7075913230180738  | 0.70740776282549
